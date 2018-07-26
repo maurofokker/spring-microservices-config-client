@@ -1,5 +1,7 @@
 # Spring microservices config client
 
+* [microservices demo starts here](https://github.com/maurofokker/microservices-demo)
+
 * create a file called `bootstrap.properties` in `resources` folder
 * `bootstrap.properties` is the same as `application.properties` but will be loaded earlier in the application initalization
 

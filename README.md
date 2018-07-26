@@ -29,3 +29,7 @@ or `curl -X POST http://localhost:8080/actuator/refresh -d {} -H "Content-Type: 
     * `management.endpoints.web.exposure.include=*` will enable all endpoints in `application.yml` use `"*"`
     * `management.endpoints.web.exposure.include=refresh,health,info` will enable specific endpoints
   * `Actuator` allow to do modification of properties inside the application 
+
+* if configuration values are encrypted in respository and server config implement encryp/decrypt in symmetric (shared) mode
+client config can retrieve values decrypted
+* see case of [asymmetric (RSA)key](https://patrickgrimard.io/2016/03/04/encrypting-and-decrypting-configuration-property-values-in-spring-cloud/)
